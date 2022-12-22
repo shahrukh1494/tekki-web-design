@@ -1,0 +1,26 @@
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+    gap: 16px;
+
+    .error{
+        color:red;
+        font-size: 12px;
+    }
+}
+
+.form-line {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    width: 300px;
+}
+
+.submit-button {
+    margin-top: 12px;
+    width: 300px;
+    cursor: pointer;
+}

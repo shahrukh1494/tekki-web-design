@@ -1,0 +1,17 @@
+.empty-cart {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+    gap: 16px;
+}
+
+.submit-button {
+    cursor: pointer;
+}
